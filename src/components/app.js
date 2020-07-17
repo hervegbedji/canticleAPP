@@ -21,7 +21,7 @@ class App extends React.Component {
         this._canticleList = canticleList;
         this.state = {
             lyricsMode: false,
-            canticleNumber: 1
+            canticleNumber: this._canticleList[0].number
         }
     }
 

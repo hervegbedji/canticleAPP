@@ -1,5 +1,6 @@
 #DS stores
 *.DS_Store
+.DS_Store
 
 # Customs
 /package-lock.json

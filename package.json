@@ -1,0 +1,32 @@
+{
+  "name": "canticles",
+  "version": "1.0.0",
+  "description": "Canticles Lyrics Browsing App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel ./public/index.html",
+    "build": "parcel build ./public/index.html",
+    "compile:sass": "node-sass public/styles.scss public/styles.css -w"
+  },
+  "keywords": [
+    "Hymns",
+    "Canticles",
+    "Sing"
+  ],
+  "author": "Herve G",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.0",
+    "html-react-parser": "^0.13.0",
+    "jquery": "^3.5.1",
+    "node-sass": "^4.14.1",
+    "parcel-bundler": "^1.12.4",
+    "popper": "^1.0.1",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.2.2",
+    "react-dom": "^16.13.1",
+    "react-icons": "^3.10.0"
+  }
+}

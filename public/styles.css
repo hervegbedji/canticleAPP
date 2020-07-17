@@ -1,0 +1,74 @@
+.lyricsHeader {
+  height: 65px;
+  border: 1px solid #000; }
+  .lyricsHeader div {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    float: left;
+    text-transform: uppercase;
+    font: "Krub", sans-serif;
+    font-size: 1.5em; }
+
+.lyricsBody {
+  min-height: 500px;
+  height: auto; }
+  .lyricsBody .verseBlock {
+    min-height: 200px;
+    height: auto;
+    display: block; }
+    .lyricsBody .verseBlock .verseLines {
+      font-family: "Krub", sans-serif;
+      font-size: 2em;
+      float: left;
+      height: auto; }
+    .lyricsBody .verseBlock .specialInstructions {
+      float: left; }
+
+.menu-bar {
+  display: flex;
+  justify-content: space-evenly;
+  height: 65px;
+  background: #FFD740;
+  font-family: "Krub", sans-serif;
+  font-size: 1em; }
+  .menu-bar div {
+    height: 80%;
+    text-align: center;
+    margin-top: 7px;
+    background: teal; }
+    .menu-bar div a {
+      display: inline-block;
+      width: 100%;
+      height: auto;
+      padding: 0.5rem 0 0 0;
+      text-decoration: none;
+      outline: none;
+      color: #000; }
+  .menu-bar div.searchBtn {
+    background: #fff;
+    border-radius: 28px;
+    border: 1px solid #000;
+    padding-right: 0;
+    padding-left: 0; }
+    .menu-bar div.searchBtn span:first-child {
+      display: inline-block;
+      background: transparent;
+      width: 40%;
+      height: 40%;
+      float: left; }
+    .menu-bar div.searchBtn span:last-child {
+      display: inline-block;
+      height: 100%;
+      float: left; }
+    .menu-bar div.searchBtn a {
+      font-size: 1.4em; }
+  .menu-bar div.refBtn {
+    background: #fff;
+    border-radius: 28px;
+    border: 1px solid #000;
+    padding-right: 0;
+    padding-left: 0; }
+    .menu-bar div.refBtn a {
+      font: "Krub", sans-serif;
+      font-size: 1.4em; }

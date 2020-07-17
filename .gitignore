@@ -3,7 +3,9 @@
 /materials
 /.idea
 /db
-
+/src/string-stuff.js
+/public/test.html
+/src/components/lyrics.json
 
 # Logs
 logs

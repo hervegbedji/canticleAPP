@@ -1,3 +1,6 @@
+#DS stores
+*.DS_Store
+
 # Customs
 /package-lock.json
 /materials

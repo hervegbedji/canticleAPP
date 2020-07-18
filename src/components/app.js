@@ -16,11 +16,17 @@ class App extends React.Component {
         this.previousPage = this.previousPage.bind(this);
         this.nextPage = this.nextPage.bind(this);
         this.openFromSearch = this.openFromSearch.bind(this);
+        this.displayChorus = this.displayChorus.bind(this);
         this._canticleList = canticleList;
         this.state = {
             lyricsMode: true,
-            canticleNumber: this._canticleList[0].number // A Func uses the canticle number to return related canticle
+            canticleNumber: this._canticleList[0].number,
+            displayChorus: false
         }
+    }
+
+    componentDidMount() {
+        this.getCanticleVerses();
     }
 
     toggleAppMode(){
@@ -52,10 +58,6 @@ class App extends React.Component {
             });
             console.log('next canticle id '+(originalIdOfCanticle+1));
         }
-    }
-
-    componentDidMount() {
-        this.getCanticleVerses();
     }
 
     getTheNumberOfTheCanticle(id) {
@@ -93,6 +95,13 @@ class App extends React.Component {
         });
     }
 
+    displayChorus(){
+        let currentChorusDisplayStatus = this.state.displayChorus;
+        this.setState({
+            displayChorus: !currentChorusDisplayStatus
+        });
+    }
+
     render(){
         return (
             <div>
@@ -104,6 +113,7 @@ class App extends React.Component {
                     isAppInLyricsMode={this.state.lyricsMode} />
                 <Buttons
                     canticleNbr ={this.state.canticleNumber}
+                    chorDis={this.displayChorus}
                     onPrevPage = {this.previousPage}
                     onNextPage = {this.nextPage}
                     onToggleAppMode={this.toggleAppMode}

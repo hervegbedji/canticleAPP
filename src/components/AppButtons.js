@@ -34,6 +34,7 @@ class LyricsButtons extends React.Component {
         this.handleOpenSearchPage = this.handleOpenSearchPage.bind(this);
         this.handlePrevPage = this.handlePrevPage.bind(this);
         this.handleNextPage = this.handleNextPage.bind(this);
+        this.handleChorusDisplay = this.handleChorusDisplay.bind(this);
     }
     handleOpenSearchPage(){
         this.props.toggle();
@@ -47,6 +48,10 @@ class LyricsButtons extends React.Component {
         this.props.next();
     }
 
+    handleChorusDisplay(){
+        this.props.chorusDisplay();
+    }
+
     render(){
         return (
             <div className="menu-bar col-12">
@@ -55,13 +60,13 @@ class LyricsButtons extends React.Component {
                         <FaAngleLeft size={32}/>
                     </a>
                 </div>
-                <div className="searchBtn text-center col-3">
-                    <a href="#" role="button" onClick={this.handleOpenSearchPage}>
+                <div className="searchBtn text-center col-3" role="button" onClick={this.handleOpenSearchPage}>
+                    <a href="#">
                         <span className="d-block"><FaSistrix /></span>
                         <span className="d-block">{this.props.canticleNbr}</span>
                     </a>
                 </div>
-                <div className="refBtn col-3 text-center">
+                <div className="refBtn col-3 text-center" onClick={this.handleChorusDisplay}>
                     <a href="#" role="button">REF</a>
                 </div>
                 <div className="next text-center col-2" role="button" onClick={this.handleNextPage}>
@@ -86,7 +91,8 @@ const Buttons = (props) => {
         canticleNbr={props.canticleNbr}
         toggle={props.onToggleAppMode}
         prev={props.onPrevPage}
-        next={props.onNextPage} />;
+        next={props.onNextPage}
+        chorusDisplay={props.chorDis}/>;
 }
 
 export { Buttons };

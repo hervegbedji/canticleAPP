@@ -28,6 +28,14 @@ $the-font: 'Krub', sans-serif;
 .lyricsBody{
   min-height:500px;
   height: auto;
+  .chorus{
+    position: absolute;
+    left: 0;
+    height: 100%;
+    z-index:100;
+    background:teal;
+    color:#fff;
+  }
   .verseBlock{
     min-height: 200px;
     height: auto;

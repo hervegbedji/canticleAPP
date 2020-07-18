@@ -13,6 +13,13 @@
 .lyricsBody {
   min-height: 500px;
   height: auto; }
+  .lyricsBody .chorus {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    z-index: 100;
+    background: teal;
+    color: #fff; }
   .lyricsBody .verseBlock {
     min-height: 200px;
     height: auto;

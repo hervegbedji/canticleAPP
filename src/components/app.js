@@ -5,23 +5,21 @@ import { Buttons } from './AppButtons.js';
 import bootstrap from 'bootstrap/dist/css/bootstrap.css';
 
 
-const canticleInfo = (canticleNbr) => {
-    let canticleIndex = canticleNbr -1;
-    return canticleList[canticleIndex].verses;
-};
 
 class App extends React.Component {
     constructor(props) {
         super(props);
         this.toggleAppMode = this.toggleAppMode.bind(this);
         this.getCanticleVerses = this.getCanticleVerses.bind(this);
+        this.getTheNumberOfTheCanticle = this.getTheNumberOfTheCanticle.bind(this);
+        this.getCanticleId = this.getCanticleId.bind(this);
         this.previousPage = this.previousPage.bind(this);
         this.nextPage = this.nextPage.bind(this);
         this.openFromSearch = this.openFromSearch.bind(this);
         this._canticleList = canticleList;
         this.state = {
-            lyricsMode: false,
-            canticleNumber: 1
+            lyricsMode: true,
+            canticleNumber: this._canticleList[0].number // A Func uses the canticle number to return related canticle
         }
     }
 
@@ -33,35 +31,59 @@ class App extends React.Component {
     }
 
     previousPage(){
-        let currentPage = this.state.canticleNumber;
-        if(currentPage > 1){
-            currentPage -= 1;
-            this.setState({canticleNumber: currentPage});
-        } else {
-            currentPage = 1;
-            this.setState({canticleNumber: currentPage});
+        let currentlyDisplayedCanticleNumber = this.state.canticleNumber;
+        let originalIdOfCanticle = this.getCanticleId(currentlyDisplayedCanticleNumber);
+        let prevIdToBeDisplayed = originalIdOfCanticle - 1;
+
+        if(prevIdToBeDisplayed >= 0){
+            this.setState({canticleNumber: this.getTheNumberOfTheCanticle(prevIdToBeDisplayed)});
         }
     }
 
-    nextPage() {
-        let currentPage = this.state.canticleNumber;
-        if((currentPage + 1) <= this._canticleList.length){
-            currentPage += 1;
-            this.setState({canticleNumber: currentPage});
+    nextPage() { //we need to cover the case where canticleNumber # canticleId
+        let currentlyDisplayedCanticleNumber = this.state.canticleNumber;
+        let originalIdOfCanticle = this.getCanticleId(currentlyDisplayedCanticleNumber);
+        let nextIdToBeDisplayed = originalIdOfCanticle + 1;
+        console.log(originalIdOfCanticle);
+
+        if((nextIdToBeDisplayed) < this._canticleList.length){
+            this.setState({
+                canticleNumber: this.getTheNumberOfTheCanticle(nextIdToBeDisplayed)
+            });
+            console.log('next canticle id '+(originalIdOfCanticle+1));
         }
     }
 
     componentDidMount() {
         this.getCanticleVerses();
     }
+
+    getTheNumberOfTheCanticle(id) {
+        let numberOfCanticle = this._canticleList[id].number;
+        return numberOfCanticle;
+    }
+
+    getCanticleId(canticleNumber){
+        let recordOfAllCurrentIdsOfCanticles = this._canticleList.map((item, idx) => {
+            return {"original_id":idx, "canticle_number": item.number};
+        });
+        let matchingIdArray = recordOfAllCurrentIdsOfCanticles.filter(item => item.canticle_number==canticleNumber);
+        let canticleId = null;
+        return canticleId = matchingIdArray[0].original_id;
+    }
+
     getCanticleVerses(){
+
+        let canticleId = this.getCanticleId(this.state.canticleNumber);
+
         try{
-            return canticleInfo(this.state.canticleNumber);
+            return this._canticleList[canticleId].verses;;
         } catch (error) {
             console.log("the verse array is out of bound.")
         }
 
     }
+
     openFromSearch (a) {
         let selectedCanticleFromSearch = parseInt(a, 10);
         //console.log(`a is ${a}`);
@@ -69,7 +91,6 @@ class App extends React.Component {
             lyricsMode: true,
             canticleNumber: selectedCanticleFromSearch
         });
-        //console.log("function works!!");
     }
 
     render(){

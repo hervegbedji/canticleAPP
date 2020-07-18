@@ -51,10 +51,11 @@ let verseStr3 = "1.Dans les cieux et sur la terre, <br/>Il n’est aucun CANADA 
 
 let tempArr = [];
 let canticleObj1 = {}, canticleObj2 = {}, canticleObj3 = {}, canticleObj4 = {};
-canticleObj4.number = 4;
-canticleObj1.number = 1;
-canticleObj2.number = 2;
-canticleObj3.number = 3;
+
+canticleObj1.number = 200;
+canticleObj2.number = 320;
+canticleObj3.number = 500;
+canticleObj4.number = 20;
 canticleObj2.verses = verseStr2;
 canticleObj3.verses = verseStr3;
 

@@ -183,6 +183,7 @@ const Screen = (props) => {
             <LyricsBody
                 canticleNumber={props.cantNbr}
                 canticleVerses={props.cantVerses}
+                isChorusDisplayed={props.chorusDisplayState}
             />
         </div>
 

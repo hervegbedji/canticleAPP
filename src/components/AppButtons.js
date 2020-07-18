@@ -66,8 +66,8 @@ class LyricsButtons extends React.Component {
                         <span className="d-block">{this.props.canticleNbr}</span>
                     </a>
                 </div>
-                <div className="refBtn col-3 text-center" onClick={this.handleChorusDisplay}>
-                    <a href="#" role="button">REF</a>
+                <div className="refBtn col-3 text-center" role="button" onClick={this.handleChorusDisplay}>
+                    <a>REF</a>
                 </div>
                 <div className="next text-center col-2" role="button" onClick={this.handleNextPage}>
                     <a href="#" >

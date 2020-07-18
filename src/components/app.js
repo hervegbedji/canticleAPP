@@ -110,6 +110,7 @@ class App extends React.Component {
                     cantVerses={this.getCanticleVerses()}
                     cantList={this._canticleList}
                     selectFromSearch={this.openFromSearch}
+                    chorusDisplayState = {this.state.displayChorus}
                     isAppInLyricsMode={this.state.lyricsMode} />
                 <Buttons
                     canticleNbr ={this.state.canticleNumber}

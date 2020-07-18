@@ -53,24 +53,25 @@ class LyricsButtons extends React.Component {
     }
 
     render(){
+        let chorusBtnLabel = this.props.isChorusDisplayed ? <IoMdClose/> : "REF";
         return (
             <div className="menu-bar col-12">
                 <div className="previous text-center col-2" role="button" onClick={this.handlePrevPage}>
-                    <a href="#" >
+                    <a >
                         <FaAngleLeft size={32}/>
                     </a>
                 </div>
                 <div className="searchBtn text-center col-3" role="button" onClick={this.handleOpenSearchPage}>
-                    <a href="#">
+                    <a>
                         <span className="d-block"><FaSistrix /></span>
                         <span className="d-block">{this.props.canticleNbr}</span>
                     </a>
                 </div>
                 <div className="refBtn col-3 text-center" role="button" onClick={this.handleChorusDisplay}>
-                    <a>REF</a>
+                    <a>{chorusBtnLabel}</a>
                 </div>
                 <div className="next text-center col-2" role="button" onClick={this.handleNextPage}>
-                    <a href="#" >
+                    <a>
                         <FaAngleRight size={32}/>
                     </a>
                 </div>
@@ -92,7 +93,9 @@ const Buttons = (props) => {
         toggle={props.onToggleAppMode}
         prev={props.onPrevPage}
         next={props.onNextPage}
-        chorusDisplay={props.chorDis}/>;
+        chorusDisplay={props.chorDis}
+        isChorusDisplayed={props.chorusDisplayState}
+    />;
 }
 
 export { Buttons };

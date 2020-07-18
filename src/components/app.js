@@ -126,6 +126,7 @@ class App extends React.Component {
                 <Buttons
                     canticleNbr ={this.state.canticleNumber}
                     chorDis={this.displayChorus}
+                    chorusDisplayState = {this.state.displayChorus}
                     onPrevPage = {this.previousPage}
                     onNextPage = {this.nextPage}
                     onToggleAppMode={this.toggleAppMode}

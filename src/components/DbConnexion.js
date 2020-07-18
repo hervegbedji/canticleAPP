@@ -58,12 +58,14 @@ canticleObj3.number = 500;
 canticleObj4.number = 20;
 canticleObj2.verses = verseStr2;
 canticleObj3.verses = verseStr3;
+canticleObj2.theme = "ADORATION";
+canticleObj3.theme = "repas du Seigneur"
 
 tempArr.push(canticleObj1, canticleObj2, canticleObj3, canticleObj4);
 
 function giveFieldsToCanticleObj(canticleObj){
     if(!canticleObj.verses) {canticleObj.verses = verseStr}
-    canticleObj.theme = "adoration generale";
+    if(!canticleObj.theme){ canticleObj.theme = "adoration generale";}
     canticleObj.chorus = "Call me chorus pal";
     if(!canticleObj.number){ canticleObj.number = 307}
 

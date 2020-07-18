@@ -46,6 +46,23 @@ const CanticleNumberBtns = (props) => {
     );
 }
 
+const GroupByTheme = (props) => {
+    const filteredByTheme = props.listOfAllCanticlesInfos.filter(i=> i.theme.toLowerCase()==props.byTheme.toLowerCase());
+    const canticleNumbers = filteredByTheme.map((canticle) => canticle.number);
+    const buttonList = canticleNumbers.map((number, i) =>
+        <li key={(i+1).toString()}>
+            <CanticleBtn remotePropOpenCanticle={props.lessRemotePropOpenCanticle} nbr={number}/>
+        </li>
+    );
+    return(
+        <div>
+            <p>Theme:{props.byTheme}</p>
+            <ul>{buttonList}</ul>
+        </div>
+
+    );
+}
+
 const CanticleNumberBtnsWithVerses = (props) => {
 
     const originalCanticleArray = props.listOfAllCanticlesInfos.map((canticle) => (
@@ -130,7 +147,18 @@ const Search = (props) => {
                         <CanticleNumberBtns lessRemotePropOpenCanticle={props.openCanticleProp} listOfAllCanticlesInfos={props.canticleList}/>
                     </Tab>
                     <Tab eventKey="byTheme" title="Par Theme">
-                        Hola
+                        <GroupByTheme byTheme="adoration generale"
+                                      lessRemotePropOpenCanticle={props.openCanticleProp}
+                                      listOfAllCanticlesInfos={props.canticleList}
+                        />
+                        <GroupByTheme byTheme="adoration"
+                                      lessRemotePropOpenCanticle={props.openCanticleProp}
+                                      listOfAllCanticlesInfos={props.canticleList}
+                        />
+                        <GroupByTheme byTheme="repas du Seigneur"
+                                      lessRemotePropOpenCanticle={props.openCanticleProp}
+                                      listOfAllCanticlesInfos={props.canticleList}
+                        />
                     </Tab>
                     <Tab eventKey="byText" title="Par Texte">
                         <TextualSearchResults xCanticleProp={props.openCanticleProp} xCanticleList={props.canticleList}  />

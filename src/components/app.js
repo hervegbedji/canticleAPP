@@ -79,11 +79,21 @@ class App extends React.Component {
         let canticleId = this.getCanticleId(this.state.canticleNumber);
 
         try{
-            return this._canticleList[canticleId].verses;;
+            return this._canticleList[canticleId].verses;
         } catch (error) {
-            console.log("the verse array is out of bound.")
+            console.log("Can't retrieve verses. Verse or Canticle array is out of bound.")
         }
 
+    }
+
+    getCanticleChorus(){
+        let canticleId = this.getCanticleId(this.state.canticleNumber);
+
+        try{
+            return this._canticleList[canticleId].chorus;
+        } catch (error) {
+            console.log("Can't retrieve chorus. Array may be out of bound")
+        }
     }
 
     openFromSearch (a) {
@@ -111,6 +121,7 @@ class App extends React.Component {
                     cantList={this._canticleList}
                     selectFromSearch={this.openFromSearch}
                     chorusDisplayState = {this.state.displayChorus}
+                    theChorus={this.getCanticleChorus()}
                     isAppInLyricsMode={this.state.lyricsMode} />
                 <Buttons
                     canticleNbr ={this.state.canticleNumber}

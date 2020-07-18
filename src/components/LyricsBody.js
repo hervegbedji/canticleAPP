@@ -14,7 +14,9 @@ const LyricsBody = (props) => { // on each btn click, i call LyricsBody
     return (
         <div className="lyricsBody text-center col-12">
             <h1 className="canticleTitle d-block col-12 display-4">{props.canticleNumber}</h1>
-            <div className={`chorus col-12 ${chorusStyleExtension}`} ></div>
+            <div className={`chorus col-12 ${chorusStyleExtension}`} >
+                {props.chorusText}
+            </div>
             {verses}
 
         </div>

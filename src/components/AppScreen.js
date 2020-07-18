@@ -184,6 +184,7 @@ const Screen = (props) => {
                 canticleNumber={props.cantNbr}
                 canticleVerses={props.cantVerses}
                 isChorusDisplayed={props.chorusDisplayState}
+                chorusText={props.theChorus}
             />
         </div>
 

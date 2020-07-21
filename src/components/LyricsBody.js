@@ -2,7 +2,6 @@ import React from 'react';
 
 
 const LyricsBody = (props) => { // on each btn click, i call LyricsBody
-
     let verses = props.canticleVerses.map((verse, i) =>
         <div key={(i+2).toString().concat('rv')} className="verseBlock col-12">
             <div className="verseLines col-12">

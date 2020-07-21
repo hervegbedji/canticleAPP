@@ -47,16 +47,17 @@ const CanticleNumberBtns = (props) => {
 }
 
 const GroupByTheme = (props) => {
+
     const filteredByTheme = props.listOfAllCanticlesInfos.filter(i=> i.theme.toLowerCase()==props.byTheme.toLowerCase());
     const canticleNumbers = filteredByTheme.map((canticle) => canticle.number);
     const buttonList = canticleNumbers.map((number, i) =>
-        <li key={(i+1).toString()}>
+        <li key={number}>
             <CanticleBtn remotePropOpenCanticle={props.lessRemotePropOpenCanticle} nbr={number}/>
         </li>
     );
     return(
         <div>
-            <p>Theme:{props.byTheme}</p>
+            <p>Theme: {props.byTheme}</p>
             <ul>{buttonList}</ul>
         </div>
 
@@ -139,6 +140,22 @@ class TextualSearchResults extends React.Component {
 }
 
 const Search = (props) => {
+    let themeSet = new Set();
+
+    for(let i=0; i< props.canticleList.length; i++){
+            themeSet.add(props.canticleList[i].theme);
+    }
+
+
+    let themeArray = Array.from(themeSet);
+    //console.log(themeArray);
+    let groupByThemeResults = themeArray.map((theme) => {
+       return <GroupByTheme byTheme={theme}
+                      lessRemotePropOpenCanticle={props.openCanticleProp}
+                      listOfAllCanticlesInfos={props.canticleList}
+        />
+    });
+
     return (
         <div>
             <div className="tabs">
@@ -147,18 +164,7 @@ const Search = (props) => {
                         <CanticleNumberBtns lessRemotePropOpenCanticle={props.openCanticleProp} listOfAllCanticlesInfos={props.canticleList}/>
                     </Tab>
                     <Tab eventKey="byTheme" title="Par Theme">
-                        <GroupByTheme byTheme="adoration generale"
-                                      lessRemotePropOpenCanticle={props.openCanticleProp}
-                                      listOfAllCanticlesInfos={props.canticleList}
-                        />
-                        <GroupByTheme byTheme="adoration"
-                                      lessRemotePropOpenCanticle={props.openCanticleProp}
-                                      listOfAllCanticlesInfos={props.canticleList}
-                        />
-                        <GroupByTheme byTheme="repas du Seigneur"
-                                      lessRemotePropOpenCanticle={props.openCanticleProp}
-                                      listOfAllCanticlesInfos={props.canticleList}
-                        />
+                        {groupByThemeResults}
                     </Tab>
                     <Tab eventKey="byText" title="Par Texte">
                         <TextualSearchResults xCanticleProp={props.openCanticleProp} xCanticleList={props.canticleList}  />

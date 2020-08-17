@@ -1903,7 +1903,7 @@ let theLyrics = [
             "nous prenons sur la terre<br />\n" +
             "Ce repas que, pour nous, prépara ton amour, <br />\n" +
             "Et nous y proclamons ta grâce salutaire,<br />\n" +
-            "<span class='bis>Tes souffrances, ta mort —<br />\n" +
+            "<span class='bis'>Tes souffrances, ta mort —<br />\n" +
             "et ton prochain retour.</span><br />\n"
     },
     {
@@ -4736,7 +4736,7 @@ let theLyrics = [
             "Par l’Esprit qui me pénètre. Toutes mes terreurs ont fui, <br />\n" +
             "Une douce paix m’inonde;<br />\n" +
             "<span class='bis'>Ô sécurité profonde! <br />\n" +
-            "Il est à moi, je suis à lui!</span><br /><br />\n" +
+            "Il est à moi, je suis à lui!</span><br />\n" +
             "#\n" +
             "2. Jamais l’oiseau n’a chanté <br />\n" +
             "Hymnes si mélodieuses,<br />\n" +
@@ -4745,7 +4745,7 @@ let theLyrics = [
             "Jamais, dans l’azur, n’a lui<br />\n" +
             "Une lumière si belle... <br />\n" +
             "<span class='bis'>Ô bonheur! vie éternelle!<br />\n" +
-            "Il est à moi, je suis à lui!</span><br /><br />\n" +
+            "Il est à moi, je suis à lui!</span><br />\n" +
             "#\n" +
             "3. Mes péchés ont disparu, <br />\n" +
             "Chassés comme une fumée; <br />\n" +
@@ -4754,7 +4754,7 @@ let theLyrics = [
             "Sûr et fort de son appui, <br />\n" +
             "Je repose en sa tendresse, <br />\n" +
             "<span class='bis'>Et tout bas redis sans cesse: <br />\n" +
-            "Il est à moi, je suis à lui!</span><br /><br />\n" +
+            "Il est à moi, je suis à lui!</span><br />\n" +
             "#\n" +
             "4. À lui seul, et pour toujours! <br />\n" +
             "L’enfer, la mort, ni la vie, <br />\n" +

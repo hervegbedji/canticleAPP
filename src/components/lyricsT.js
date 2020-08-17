@@ -4011,145 +4011,834 @@ let theLyrics = [
         "theme": "Adoration générale",
         "number": 278,
         "chorus": "hello world",
-        "verses": "hello#verse#how#are#you"
+        "verses": "1.  Devant le trône de la grâce <br />\n" +
+            "Nous t’adorons, ô notre Dieu, <br />\n" +
+            "Ayant, pour jouir de ta face, <br />\n" +
+            "Par Jésus accès au saint lieu.<br />\n" +
+            "#\n" +
+            "2. Le pain du ciel, qui rassasie, <br />\n" +
+            "Est devenu notre aliment; <br />\n" +
+            "En Jésus nous avons la vie <br />\n" +
+            "Qui demeure éternellement.<br />\n" +
+            "#\n" +
+            "3. En retour de la coupe amère <br />\n" +
+            "Que de ta justice il reçut,<br />\n" +
+            "Ce Sauveur humble et débonnaire <br />\n" +
+            "Nous donne celle du salut.<br />\n" +
+            "#\n" +
+            "4. Bientôt, à la voix de l’Archange, <br />\n" +
+            "Ravis au céleste séjour,<br />\n" +
+            "Nous entonnerons sa louange, <br />\n" +
+            "Nous le verrons....Oh! quel beau jour!<br />\n"
     },
     {
         "theme": "Adoration générale",
         "number": 279,
         "chorus": "hello world",
-        "verses": "hello#verse#how#are#you"
+        "verses": "1. Ton Église triomphante, <br />\n" +
+            "Ô saint Agneau!<br />\n" +
+            "Dans ton ciel, d’une voix chante: <br />\n" +
+            "Gloire à l’Agneau!<br />\n" +
+            "À lui le sceptre et le trône, <br />\n" +
+            "À lui l’encens, la couronne!<br />\n" +
+            "Que ce chant toujours résonne: <br />\n" +
+            "Gloire à l’Agneau!<br />\n" +
+            "#\n" +
+            "2. Ô merveilleuse harmonie! <br />\n" +
+            "Devant l’Agneau<br />\n" +
+            "Toute l’Église est unie... <br />\n" +
+            "Gloire à l’Agneau!<br />\n" +
+            "Rassemblés de toute race, <br />\n" +
+            "Sauvés par la même grâce, <br />\n" +
+            "Jamais ce choeur ne se lasse: <br />\n" +
+            "Gloire à l’Agneau!<br />\n" +
+            "#\n" +
+            "3. Rachetés, que vos louanges, <br />\n" +
+            "Devant l’Agneau,<br />\n" +
+            "S’unissent aux choeurs des anges: <br />\n" +
+            "Gloire à l’Agneau!<br />\n" +
+            "Gloire à la sainte victime! <br />\n" +
+            "Son sang lava notre crime, <br />\n" +
+            "Et nous sauva de l’abîme...<br />\n" +
+            "Gloire à l’Agneau!<br />\n" +
+            "#\n" +
+            "4. Dès maintenant, sur la terre, <br />\n" +
+            "Chantons l’Agneau!<br />\n" +
+            "Adorons le saint mystère, <br />\n" +
+            "Gloire à l’Agneau!<br />\n" +
+            "Dans l’épreuve et la souffrance, <br />\n" +
+            "Chantons la douce espérance <br />\n" +
+            "De l’entière délivrance...<br />\n" +
+            "Gloire à l’Agneau! <br />\n"
     },
     {
         "theme": "Adoration générale",
         "number": 280,
         "chorus": "hello world",
-        "verses": "hello#verse#how#are#you"
+        "verses": "1. Grand Dieu, nous te bénissons, <br />\n" +
+            "Nous célébrons tes louanges!<br />\n" +
+            "Éternel, nous t’exaltons, <br />\n" +
+            "De concert avec les anges,<br />\n" +
+            "<span class='bis'>Et prosternés devant toi, <br />\n" +
+            "Nous t’adorons, ô grand Roi!</span><br />\n" +
+            " #\n" +
+            "2. Les saints et les bienheureux, <br />\n" +
+            "Les trônes et les puissances, <br />\n" +
+            "Toutes les vertus des cieux, <br />\n" +
+            "Disent tes magnificences,<br />\n" +
+            "<span class='bis'>Proclamant dans leurs concerts <br />\n" +
+            "Le grand Dieu de l’Univers.</span><br />\n" +
+            "#\n" +
+            "3. Saint, saint, saint, est l’Éternel, <br />\n" +
+            "Le Seigneur, Dieu des armées;<br />\n" +
+            "Son pouvoir est immortel; <br />\n" +
+            "Ses oeuvres partout semées <br />\n" +
+            "<span class='bis'>Font éclater sa grandeur, <br />\n" +
+            "Sa majesté, sa splendeur.</span><br />\n"
     },
     {
         "theme": "Adoration générale",
         "number": 281,
         "chorus": "hello world",
-        "verses": "hello#verse#how#are#you"
+        "verses": "1. Gloire, gloire à l’Éternel! <br />\n" +
+            "Qu’un cantique solennel, (bis)<br />\n" +
+            "De nos cœurs monte à son trône! <br />\n" +
+            "Quand il crée, oh! qu’il est grand! (bis) <br />\n" +
+            "Qu’il est juste en punissant!<br />\n" +
+            "Qu’il est bon quand il pardonne!<br />\n" +
+            "#\n" +
+            "2. Il parle!... et cet univers<br />\n" +
+            "Se lève aux puissants concerts, (bis)<br />\n" +
+            "De sa parole vivante; <br />\n" +
+            "Et des astres radieux, (bis)<br />\n" +
+            "Sa main jette dans les cieux <br />\n" +
+            "La poussière étincelante!<br />\n" +
+            "#\n" +
+            "3. Mais l’âme à qui le Seigneur <br />\n" +
+            "S’est donné pour Rédempteur, (bis)<br />\n" +
+            "Goûte une paix ineffable.<br />\n" +
+            "Objet d’un si grand amour, (bis) <br />\n" +
+            "Elle éprouve un doux retour <br />\n" +
+            "Pour ce Sauveur adorable.<br />\n" +
+            "#\n" +
+            "4. Ô Dieu, que tes rachetés <br />\n" +
+            "Toujours chantent les bontés (bis)<br />\n" +
+            "De Celui qui leur pardonne! <br />\n" +
+            "Gloire, gloire à l’Éternel! (bis) <br />\n" +
+            "Ce cantique solennel<br />\n" +
+            "Montera jusqu’à son trône.<br />\n"
     },
     {
         "theme": "Adoration générale",
         "number": 282,
-        "chorus": "hello world",
-        "verses": "hello#verse#how#are#you"
+        "chorus": "Gloire à Dieu! (bis) <br />\n" +
+            "Terre, écoute sa voix! <br />\n" +
+            "Gloire à Dieu! (bis) <br />\n" +
+            "Monde, réjouis-toi! <br />\n" +
+            "Oh! venez au Père, <br />\n" +
+            "Jésus est vainqueur; <br />\n" +
+            "Que toute la terre <br />\n" +
+            "Chante en son honneur!<br />\n",
+        "verses": "1. À Dieu soit la gloire! <br />\n" +
+            "Par son grand amour <br />\n" +
+            "Dans mon âme noire<br />\n" +
+            "S’est levé le jour. <br />\n" +
+            "Jésus, à ma place, <br />\n" +
+            "Mourut sur la croix, <br />\n" +
+            "Il m’offre sa grâce <br />\n" +
+            "Et je la reçois!<br />\n" +
+            "#\n" +
+            "Refrain<br />\n" +
+            "Gloire à Dieu! (bis) <br />\n" +
+            "Terre, écoute sa voix! <br />\n" +
+            "Gloire à Dieu! (bis) <br />\n" +
+            "Monde, réjouis-toi! <br />\n" +
+            "Oh! venez au Père, <br />\n" +
+            "Jésus est vainqueur; <br />\n" +
+            "Que toute la terre <br />\n" +
+            "Chante en son honneur!<br />\n" +
+            "#\n" +
+            "2. De Jésus, la joie <br />\n" +
+            "Remplit notre coeur; <br />\n" +
+            "Qu’importe qu’on voie<br />\n" +
+            "Tout notre bonheur. <br />\n" +
+            "Selon sa promesse <br />\n" +
+            "Jésus changera <br />\n" +
+            "Deuil en allégresse, <br />\n" +
+            "Quand il reviendra.<br />\n" +
+            "Gloire à Dieu! etc.<br />\n"
     },
     {
         "theme": "Adoration générale",
         "number": 283,
-        "chorus": "hello world",
-        "verses": "hello#verse#how#are#you"
+        "chorus": "L’Agneau! l’Agneau! l’Agneau de Dieu!<br />\n" +
+            "J’aime l’écho de son saint nom; <br />\n" +
+            "Ce nom brillera sur mon front. <br />\n" +
+            "Gloire à l’Agneau de Dieu!<br />\n",
+        "verses": "1. Mon Sauveur souffrit sur la croix, <br />\n" +
+            "Gloire à l’Agneau de Dieu! <br />\n" +
+            "Oh! viens le louer avec moi; <br />\n" +
+            "Gloire à l’Agneau de Dieu!<br />\n" +
+            "#\n" +
+            "Refrain<br />\n" +
+            "L’Agneau! l’Agneau! l’Agneau de Dieu!<br />\n" +
+            "J’aime l’écho de son saint nom; <br />\n" +
+            "Ce nom brillera sur mon front. <br />\n" +
+            "Gloire à l’Agneau de Dieu!<br />\n" +
+            "#\n" +
+            "2. Je veux dire à chaque pécheur, <br />\n" +
+            "Gloire à l’Agneau de Dieu!<br />\n" +
+            "Qu’enfin j’ai trouvé mon Sauveur.<br />\n" +
+            "Gloire à l’Agneau de Dieu!<br />\n" +
+            "L’Agneau!  l’Agneau! etc.<br />\n" +
+            "#\n" +
+            "3. Oui, je veux chanter plein de foi, <br />\n" +
+            "Gloire à l’Agneau de Dieu!<br />\n" +
+            "Que mon Sauveur est mort pour moi.<br />\n" +
+            "Gloire à l’Agneau de Dieu!<br />\n" +
+            "L’Agneau!  l’Agneau! etc.<br />\n" +
+            "#\n" +
+            "4. Du monde je fais l’abandon; <br />\n" +
+            "Gloire à l’Agneau de Dieu! <br />\n" +
+            "De mes péchés j’ai le pardon! <br />\n" +
+            "Gloire à l’Agneau de Dieu!<br />\n" +
+            "L’Agneau! l’Agneau! etc.<br />\n" +
+            "#\n" +
+            "5. Parmi les sauvés j’ai mon rang, <br />\n" +
+            "Gloire à l’Agneau de Dieu!<br />\n" +
+            "Mon coeur est lavé dans son sang.<br />\n" +
+            "Gloire à l’Agneau de Dieu!<br />\n" +
+            "L’Agneau!  l’Agneau! etc.<br />\n"
     },
     {
         "theme": "Adoration générale",
         "number": 284,
-        "chorus": "hello world",
-        "verses": "hello#verse#how#are#you"
+        "chorus": "À toi, louange, honneur et gloire, <br />\n" +
+            "À ton nom, ô Jésus!<br />\n" +
+            "Ta croix remporte la victoire <br />\n" +
+            "Et sauve les perdus.<br />\n",
+        "verses": "1. Oh! que toute la terre entonne <br />\n" +
+            "Un hymne à ton honneur! <br />\n" +
+            "Que l’univers entier résonne<br />\n" +
+            "De ta gloire, ô Sauveur!<br />\n" +
+            "#\n" +
+            "Refrain<br />\n" +
+            "À toi, louange, honneur et gloire, <br />\n" +
+            "À ton nom, ô Jésus!<br />\n" +
+            "Ta croix remporte la victoire <br />\n" +
+            "Et sauve les perdus.<br />\n" +
+            "#\n" +
+            "2. Ton nom, c’est l’amour et la vie, <br />\n" +
+            "La grâce et le pardon;<br />\n" +
+            "Et l’âme écoute et se confie <br />\n" +
+            "À toi dans l’abandon.<br />\n" +
+            "À toi, louange, etc.<br />\n" +
+            "#\n" +
+            "3. Ce nom divin, c’est comme un baume, <br />\n" +
+            "Un parfum qui guérit,<br />\n" +
+            "Un doux zéphyr de ton royaume, <br />\n" +
+            "Chargé de ton Esprit.<br />\n" +
+            "À toi, louange, etc.<br />\n" +
+            "#\n" +
+            "4. Ce nom fait trembler les abîmes, <br />\n" +
+            "Fait fuir tous les démons;<br />\n" +
+            "Ils lâchent leurs pauvres victimes, <br />\n" +
+            "Ils ouvrent leurs prisons.<br />\n" +
+            "À toi, louange, etc.<br />\n" +
+            "#\n" +
+            "5. Ô Christ, que tout genou fléchisse <br />\n" +
+            "À ton nom glorieux;<br />\n" +
+            "Pour t’adorer, que tout s’unisse, <br />\n" +
+            "Sur terre et dans les cieux.<br />\n" +
+            "À toi, louange, etc. <br />\n"
     },
     {
         "theme": "Adoration générale",
         "number": 285,
         "chorus": "hello world",
-        "verses": "hello#verse#how#are#you"
+        "verses": "1. Tu m’as aimé, Seigneur! avant que la lumière <br />\n" +
+            "Brillât sur l’univers que ta voix a formé,<br />\n" +
+            "Et que l’astre du jour, parcourant sa carrière, <br />\n" +
+            "Versât la vie à flots sur la nature entière, <br />\n" +
+            "Mon Dieu, tu m’as aimé! (bis)<br />\n" +
+            "#\n" +
+            "2. Mon Dieu! tu m’as aimé, — <br />\n" +
+            "quand sur la croix infâme<br />\n" +
+            "On vit de Jésus-Christ le corps inanimé; <br />\n" +
+            "Quand pour me racheter de l’éternelle flamme <br />\n" +
+            "Ton saint Fils a porté les crimes de mon âme, <br />\n" +
+            "Mon Dieu, tu m’as aimé! (bis)<br />\n" +
+            "#\n" +
+            "3. Mon Dieu! tu m’as aimé, — <br />\n" +
+            "quand par l’Esprit de vie,<br />\n" +
+            "Le feu de ton amour, en mon coeur allumé, <br />\n" +
+            "Ouvrit les nouveaux cieux à mon âme ravie; <br />\n" +
+            "Quand la paix fut, en moi, de sainteté suivie, <br />\n" +
+            "Mon Dieu, tu m’as aimé! (bis)<br />\n" +
+            "#\n" +
+            "4. Tu m’aimeras toujours! ni l’enfer, ni le monde <br />\n" +
+            "De tes dons généreux n’arrêteront le cours:<br />\n" +
+            "Où le mal abonda ta grâce surabonde;<br />\n" +
+            "À ton amour, ô Dieu, que mon amour réponde.<br />\n" +
+            "Toi qui m’aimes toujours! (bis)<br />\n"
     },
     {
         "theme": "Adoration générale",
         "number": 286,
-        "chorus": "hello world",
-        "verses": "hello#verse#how#are#you"
+        "chorus": "<span class='bis'>Gloire à Dieu! Gloire à Dieu! <br />\n" +
+            "Que ce chant retentisse en tout lieu!</span><br />\n",
+        "verses": "1. Tout joyeux bénissons le Seigneur, <br />\n" +
+            "Chantons et célébrons ses louanges,<br />\n" +
+            "Adorons avec foi le Sauveur, <br />\n" +
+            "Nous joignant aux célestes phalanges.<br />\n" +
+            "#\n" +
+            "Refrain<br />\n" +
+            "<span class='bis'>Gloire à Dieu! Gloire à Dieu! <br />\n" +
+            "Que ce chant retentisse en tout lieu!</span><br />\n" +
+            "#\n" +
+            "2. Dieu, dans son incomparable amour, <br />\n" +
+            "Du ciel envoya son Fils unique,<br />\n" +
+            "Et la terre et les cieux, dans ce jour, <br />\n" +
+            "S’unissent pour chanter ce cantique: <br />\n" +
+            "Gloire à Dieu! etc.<br />\n" +
+            "#\n" +
+            "3. Le châtiment qui produit la paix, <br />\n" +
+            "Jésus-Christ l’a subi pour mon âme;<br />\n" +
+            "Il expia en croix nos forfaits, <br />\n" +
+            "En mourant, lui, sur le bois infâme.<br />\n" +
+            "Gloire à Dieu! etc.<br />\n" +
+            "#\n" +
+            "4. Nous voulons en retour, bon Sauveur, <br />\n" +
+            "T’aimer par-dessus toute autre chose; <br />\n" +
+            "Forme ton amour dans notre coeur,  <br />\n" +
+            "Et puis, de chacun de nous, dispose!<br />\n" +
+            "Gloire à Dieu! etc. <br />\n"
     },
     {
         "theme": "Adoration générale",
         "number": 287,
         "chorus": "hello world",
-        "verses": "hello#verse#how#are#you"
+        "verses": "1. Jésus, Agneau de Dieu! du sang de l’alliance <br />\n" +
+            "Répandu sur la croix pour de pauvres pécheurs,<br />\n" +
+            "Jusqu’à la fin des temps durera ta puissance, <br />\n" +
+            "Et tous les rachetés seront plus que vainqueurs.<br />\n" +
+            "#\n" +
+            "2. Le brigand converti trouva dans ce refuge <br />\n" +
+            "Une pleine espérance à ses derniers moments;<br />\n" +
+            "Coupable comme lui, tremblant devant mon juge, <br />\n" +
+            "C’est là que j’ai cherché la fin de mes tourments.<br />\n" +
+            "#\n" +
+            "3. Dans la sainte cité par mon Dieu préparée, <br />\n" +
+            "Je chanterai l’amour et le nom glorieux <br />\n" +
+            "Du Berger qui chercha sa brebis égarée,<br />\n" +
+            "Et la prit dans ses bras pour la porter aux cieux. <br />\n"
     },
     {
         "theme": "Adoration générale",
         "number": 288,
-        "chorus": "hello world",
-        "verses": "hello#verse#how#are#you"
+        "chorus": "Oh! chantons dans ce beau jour, <br />\n" +
+            "Du Christ le grand amour,<br />\n" +
+            "Chantons le grand amour, le grand amour.<br />\n",
+        "verses": "1. Bienheureux, pardonné, je bénis et j’adore... <br />\n" +
+            "C’est ton sang, ô Jésus, qui lave mon péché.<br />\n" +
+            "J’ai foi dans ton amour et je veux croire encore, <br />\n" +
+            "Que pour moi, tu mourus, sur la croix attaché.<br />\n" +
+            "#\n" +
+            "Refrain<br />\n" +
+            "Oh! chantons dans ce beau jour, <br />\n" +
+            "Du Christ le grand amour,<br />\n" +
+            "Chantons le grand amour, le grand amour.<br />\n" +
+            "#\n" +
+            "2. Tu m’as guéri, Jésus, de toutes mes blessures; <br />\n" +
+            "Tu me donnes la paix, le pardon, le bonheur.<br />\n" +
+            "Je le sais, mon Sauveur, c’est à tes meurtrissures, <br />\n" +
+            "Que je dois tous ces biens —<br />\n" +
+            "qui remplissent mon coeur.<br />\n" +
+            "Oh! chantons, etc.<br />\n" +
+            "#\n" +
+            "3. Seigneur, je suis à toi; je veux chanter ta grâce, <br />\n" +
+            "Car tu m’as délivré, car tu me rends heureux.<br />\n" +
+            "Je me sais racheté, je contemple ta face, <br />\n" +
+            "Elle brille sur moi, m’illumine des cieux.<br />\n" +
+            "Oh! chantons, etc.<br />\n"
     },
     {
         "theme": "Adoration générale",
         "number": 289,
-        "chorus": "hello world",
-        "verses": "hello#verse#how#are#you"
+        "chorus": "L’amour de Dieu, si fort, si tendre <br />\n" +
+            "Est un amour sans fin:<br />\n" +
+            "Tel est le chant que font entendre <br />\n" +
+            "Les anges et les saints.<br />\n",
+        "verses": "1. L’amour de Dieu de loin surpasse <br />\n" +
+            "Ce qu’en peut dire un coeur humain.<br />\n" +
+            "Il est plus grand que les espaces, <br />\n" +
+            "Même en l’abîme il nous atteint. <br />\n" +
+            "Pour le péché de notre monde, <br />\n" +
+            "Dieu nous donna Jésus.<br />\n" +
+            "Il nous pardonne, ô paix profonde, <br />\n" +
+            "Il sauve les perdus.<br />\n" +
+            "#\n" +
+            "Refrain<br />\n" +
+            "L’amour de Dieu, si fort, si tendre <br />\n" +
+            "Est un amour sans fin:<br />\n" +
+            "Tel est le chant que font entendre <br />\n" +
+            "Les anges et les saints.<br />\n" +
+            "#\n" +
+            "2. Versez de l’encre dans les ondes, <br />\n" +
+            "Changez le ciel en parchemin, <br />\n" +
+            "Tendez la plume à tout le monde<br />\n" +
+            "Et que chacun soit écrivain: <br />\n" +
+            "Vous dire tout l’amour du Père <br />\n" +
+            "Ferait tarir les eaux<br />\n" +
+            "Et remplirait la place entière <br />\n" +
+            "Sur ces divins rouleaux. <br />\n" +
+            "L’amour de Dieu, etc.<br />\n" +
+            "#\n" +
+            "3. Et que le monde un jour chancelle <br />\n" +
+            "Avec ses trônes et ses rois,<br />\n" +
+            "Quand trembleront tous les rebelles, <br />\n" +
+            "Soudain saisis d’un grand effroi, <br />\n" +
+            "De Dieu l’amour que rien ne lasse<br />\n" +
+            "Pour nous encor vivra:<br />\n" +
+            "C’est le miracle de la grâce, <br />\n" +
+            "Amen! alléluia!<br />\n" +
+            "L’amour de Dieu, etc.<br />\n"
     },
     {
         "theme": "Adoration générale",
         "number": 290,
         "chorus": "hello world",
-        "verses": "hello#verse#how#are#you"
+        "verses": "1. Seigneur, grand Dieu! — <br />\n" +
+            "Ton pouvoir est immense.<br />\n" +
+            "Tu dis: du néant surgit l’univers. <br />\n" +
+            "Rien ne subsiste que par ta puissance, <br />\n" +
+            "Soleils de flamme ou limites des mers. <br />\n" +
+            "Le firmament aux millions d’étoiles, <br />\n" +
+            "Tout obéit au plus profond des cieux.<br />\n" +
+            "Mon coeur s’émeut lorsque tu lui dévoiles <br />\n" +
+            "Ta majesté, ton pouvoir glorieux.<br />\n" +
+            "#\n" +
+            "2. Seigneur, grand Dieu! Profonde est ta sagesse. <br />\n" +
+            "Belle et parfaite est ta création:<br />\n" +
+            "Tu fis de nous, malgré notre faiblesse, <br />\n" +
+            "Par ton Esprit tes fils d’adoption.<br />\n" +
+            "Le mont superbe et le roseau qui plie, <br />\n" +
+            "Font éclater ta gloire, ô Dieu des cieux! <br />\n" +
+            "Plein de respect, mon coeur ému te prie <br />\n" +
+            "Et je bénis, ton savoir merveilleux.<br />\n" +
+            "#\n" +
+            "3. Seigneur, grand Dieu! Ton amour est sublime! <br />\n" +
+            "Ton Fils vint ici-bas le révéler.<br />\n" +
+            "Tu n’éteins pas le lumignon infime <br />\n" +
+            "Qui fume encore et ne peut plus brûler.<br />\n" +
+            "J’étais lié par une chaîne infâme, <br />\n" +
+            "Tu la brisas, sur la croix, bon Sauveur!<br />\n" +
+            "Pleurant d’amour, j’adore et je proclame <br />\n" +
+            "Ton sacrifice immense, ô Rédempteur!<br />\n"
     },
     {
         "theme": "Adoration générale",
         "number": 291,
         "chorus": "hello world",
-        "verses": "hello#verse#how#are#you"
+        "verses": "1. Seigneur, que n’ai-je mille voix <br />\n" +
+            "Pour chanter tes louanges, (bis) <br />\n" +
+            "Et faire monter jusqu’aux anges<br />\n" +
+            "Les gloires de ta croix! (ter)<br />\n" +
+            "#\n" +
+            "2. Jésus, mon Seigneur et mon Dieu, <br />\n" +
+            "Que ton souffle m’anime, (bis)<br />\n" +
+            "Pour que par moi ton Nom sublime <br />\n" +
+            "Retentisse en tout lieu! (ter)<br />\n" +
+            "#\n" +
+            "3. Doux Nom qui fait tarir nos pleurs, <br />\n" +
+            "Ineffable harmonie, (bis)<br />\n" +
+            "Tu répands la joie et la vie <br />\n" +
+            "Et la paix dans nos cœurs! (ter)<br />\n" +
+            "#\n" +
+            "4. Désormais, je n’ai plus d’effroi, <br />\n" +
+            "Aucun mal ne m’accable; (bis)<br />\n" +
+            "Ton sang rend pur le plus coupable;<br />\n" +
+            " Ton sang coula pour moi! (ter) ;<br />\n"
     },
     {
         "theme": "Adoration générale",
         "number": 292,
         "chorus": "hello world",
-        "verses": "hello#verse#how#are#you"
+        "verses": "1. Réveille-toi, peuple fidèle, <br />\n" +
+            "Pour louer Dieu tout d’une voix!<br />\n" +
+            "La louange est séante et belle <br />\n" +
+            "En la bouche des hommes droits.<br />\n" +
+            "Qu’avec harmonie <br />\n" +
+            "On chante, on publie <br />\n" +
+            "L’oeuvre du Seigneur; <br />\n" +
+            "Que de nos cantiques <br />\n" +
+            "Les sons magnifiques<br />\n" +
+            "Disent sa grandeur!<br />\n" +
+            "#\n" +
+            "2. L’Éternel ici-bas regarde <br />\n" +
+            "Nuit et jour du plus haut des cieux; <br />\n" +
+            "À tous les mortels il prend garde,<br />\n" +
+            "Rien ne se dérobe à ses yeux.<br />\n" +
+            "Redoutable et juste, <br />\n" +
+            "De son trône auguste, <br />\n" +
+            "Il voit constamment <br />\n" +
+            "Tout ce qui se passe <br />\n" +
+            "Dans le vaste espace, <br />\n" +
+            "Sous le firmament.<br />\n" +
+            "#\n" +
+            "3. Dieu, par sa suprême puissance, <br />\n" +
+            "Fit le coeur de tous les humains;<br />\n" +
+            "Il a parfaite connaissance<br />\n" +
+            "De toute l’oeuvre de leurs mains.<br />\n" +
+            "L’ombre de ses ailes <br />\n" +
+            "Couvre les fidèles; <br />\n" +
+            "Il veille toujours  <br />\n" +
+            "Sur qui le révère,<br />\n" +
+            "Et qui rien n’espère <br />\n" +
+            "Que de son secours.<br />\n" +
+            "#\n" +
+            "4. Nos coeurs, pleins de reconnaissance, <br />\n" +
+            "Béniront le nom du Seigneur; <br />\n" +
+            "Nous reposant sur sa clémence, <br />\n" +
+            "Nous célébrerons son honneur.<br />\n" +
+            "Donne-nous ta grâce, <br />\n" +
+            "Montre-nous ta face, <br />\n" +
+            "Ô Dieu, notre Roi! <br />\n" +
+            "Remplis notre attente:<br />\n" +
+            "Notre âme contente <br />\n" +
+            "N’espère qu’en toi <br />\n"
     },
     {
         "theme": "Adoration générale",
         "number": 293,
         "chorus": "hello world",
-        "verses": "hello#verse#how#are#you"
+        "verses": "1. Vous qui sur la terre habitez, <br />\n" +
+            "Chantez à haute voix, chantez! <br />\n" +
+            "Réjouissez-vous au Seigneur, <br />\n" +
+            "Égayez-vous à son honneur.<br />\n" +
+            "#\n" +
+            "2. Car il est le Dieu souverain; <br />\n" +
+            "C’est lui qui nous fit de sa main, <br />\n" +
+            "Nous tous, le peuple qu’il chérit, <br />\n" +
+            "Et l’heureux troupeau qu’il nourrit.<br />\n" +
+            "#\n" +
+            "3. Entrez dans son temple aujourd’hui <br />\n" +
+            "Et présentez-vous devant lui; <br />\n" +
+            "Célébrez son nom glorieux<br />\n" +
+            "Qui remplit la terre et les cieux.<br />\n" +
+            "#\n" +
+            "4. Du Seigneur, la fidélité <br />\n" +
+            "Subsiste à perpétuité;<br />\n" +
+            "Il nous comble de ses bienfaits, <br />\n" +
+            "Et sa grâce dure à jamais.<br />\n"
     },
     {
         "theme": "Adoration générale",
         "number": 294,
-        "chorus": "hello world",
-        "verses": "hello#verse#how#are#you"
+        "chorus": "Sur la croix, Christ a porté <br />\n" +
+            "Toute mon iniquité;<br />\n" +
+            "De Dieu le courroux a pris fin, <br />\n" +
+            "Ô quel amour, Sauveur divin!<br />\n",
+        "verses": "1. Devant mon âme confondue <br />\n" +
+            "S’étend un océan d’amour!<br />\n" +
+            "Et d’en haut la paix descendue, <br />\n" +
+            "Inonde mon cœur en ce jour.<br />\n" +
+            "#\n" +
+            "Refrain<br />\n" +
+            "Sur la croix, Christ a porté <br />\n" +
+            "Toute mon iniquité;<br />\n" +
+            "De Dieu le courroux a pris fin, <br />\n" +
+            "Ô quel amour, Sauveur divin!<br />\n" +
+            "#\n" +
+            "2. Je cherchais, luttais avec larmes, <br />\n" +
+            "Je voulais vaincre, mais en vain; <br />\n" +
+            "Quand, lassé, je rendis les armes, <br />\n" +
+            "La paix brilla sur mon chemin.<br />\n" +
+            "Sur la croix, etc.<br />\n" +
+            "#\n" +
+            "3. Sur moi posant sa main bénie, <br />\n" +
+            "Il me lava complètement,<br />\n" +
+            "Et mon âme trouva la vie: <br />\n" +
+            "Sa justice est mon vêtement.<br />\n" +
+            "Sur la croix, etc.<br />\n" +
+            "#\n" +
+            "4. L’Église va le voir encore; <br />\n" +
+            "En un instant, il va venir,<br />\n" +
+            "Et dans mon coeur ô quelle aurore <br />\n" +
+            "D’un beau jour qui ne peut finir.<br />\n" +
+            "Sur la croix, etc. .<br />\n"
     },
     {
         "theme": "Adoration générale",
         "number": 295,
-        "chorus": "hello world",
-        "verses": "hello#verse#how#are#you"
+        "chorus": "Louons,  chantons; <br />\n" +
+            "Louons le grand nom du Seigneur.<br />\n" +
+            "Louons, chantons; <br />\n" +
+            "Louons notre Dieu Rédempteur!<br />\n",
+        "verses": "1. Bénissons Dieu par nos cantiques, <br />\n" +
+            "Exaltons-le d’un même coeur.<br />\n" +
+            "Chantons ses exploits magnifiques, <br />\n" +
+            "Son grand amour, son bras vainqueur.<br />\n" +
+            "#\n" +
+            "Refrain<br />\n" +
+            "Louons,  chantons; <br />\n" +
+            "Louons le grand nom du Seigneur.<br />\n" +
+            "Louons, chantons; <br />\n" +
+            "Louons notre Dieu Rédempteur!<br />\n" +
+            "#\n" +
+            "2. C’est sa main qui nous a fait naître; <br />\n" +
+            "Nous sommes son peuple à jamais, <br />\n" +
+            "Le troupeau que lui seul doit paître<br />\n" +
+            "Et qu’il comble de ses bienfaits.<br />\n" +
+            "Louons, chantons, etc.<br />\n" +
+            "#\n" +
+            "3. Ensemble donnons gloire au Père <br />\n" +
+            "Qui des cieux nous a visités;<br />\n" +
+            "Au Sauveur qui, sur le Calvaire, <br />\n" +
+            "Par son sang nous a rachetés.<br />\n" +
+            "Louons, chantons, etc.<br />\n" +
+            "#\n" +
+            "4. Que les accents de notre joie <br />\n" +
+            "Fassent tressaillir le saint lieu!<br />\n" +
+            "Qu’en ce jour les anges nous voient <br />\n" +
+            "Nous égayer en notre Dieu!<br />\n" +
+            "Louons, chantons, etc.<br />\n" +
+            "#\n" +
+            "5. Reçois, ô Dieu! notre humble hommage; <br />\n" +
+            "Reste à jamais notre secours.<br />\n" +
+            "Ton amour dure d’âge en âge; <br />\n" +
+            "Ta bonté subsiste à toujours.<br />\n" +
+            "Louons, chantons, etc.<br />\n"
     },
     {
         "theme": "Adoration générale",
         "number": 296,
         "chorus": "hello world",
-        "verses": "hello#verse#how#are#you"
+        "verses": "1. Dieu Tout-Puissant, — <br />\n" +
+            "quand mon coeur considère<br />\n" +
+            "Tout l’univers créé par ton pouvoir; <br />\n" +
+            "Le ciel d’azur, les éclairs, le tonnerre,<br />\n" +
+            "Le clair matin ou les ombres du soir... <br />\n" +
+            "<span class='bis'>De tout mon être, alors, — <br />\n" +
+            "s’élève un chant:<br />\n" +
+            "«Dieu Tout-Puissant, — <br />\n" +
+            "que tu es grand!»</span><br />\n" +
+            "#\n" +
+            "2. Quand, par les bois, ou la forêt profonde, <br />\n" +
+            "J’erre et j’entends tous les oiseaux chanter;<br />\n" +
+            "Quand, sur les monts, la source avec son onde <br />\n" +
+            "Livre au zéphyr son chant doux et léger...<br />\n" +
+            " <span class='bis'>Mon coeur, heureux, — <br />\n" +
+            "s’écrie à chaque instant:<br />\n" +
+            "«Ô Dieu d’amour, que tu es grand!»</span><br />\n" +
+            "#\n" +
+            "3. Mais quand je songe, ô sublime mystère! <br />\n" +
+            "Qu’un Dieu si grand a pu penser à moi; <br />\n" +
+            "Que son cher Fils descendit au Calvaire, <br />\n" +
+            "Pour que je sois l’héritier du grand Roi...<br />\n" +
+            "<span class='bis'>Alors mon coeur redit, —<br />\n" +
+            "la nuit, le jour:<br />\n" +
+            "«Que tu es grand, Seigneur d’amour!»</span><br />\n" +
+            "#\n" +
+            "4. Quand mon Sauveur, éclatant de lumière, <br />\n" +
+            "Se lèvera de son trône éternel;<br />\n" +
+            "Et que, laissant les douleurs de la terre, <br />\n" +
+            "Je pourrai voir les splendeurs de son ciel...<br />\n" +
+            "<span class='bis'>Je redirai, dans son divin séjour:<br />\n" +
+            "«Rien n’est plus grand, — <br />\n" +
+            "que ton amour!»</span>\n"
     },
     {
         "theme": "Adoration générale",
         "number": 297,
         "chorus": "hello world",
-        "verses": "hello#verse#how#are#you"
+        "verses": "1. Gloire d’âge en âge <br />\n" +
+            "Au grand Dieu Sauveur!<br />\n" +
+            "À Lui, sans partage, <br />\n" +
+            "L’empire et l’honneur! <br />\n" +
+            "Qu’à jamais notre âme, <br />\n" +
+            "Dans un saint transport, <br />\n" +
+            "Exalte, proclame <br />\n" +
+            "L’Agneau mis à mort!<br />\n" +
+            "#\n" +
+            "2. Notre âme t’adore <br />\n" +
+            "Toi que, dans le ciel,<br />\n" +
+            "Glorifie, honore <br />\n" +
+            "Le choeur éternel.<br />\n" +
+            "L’honneur te couronne <br />\n" +
+            "Au divin séjour;<br />\n" +
+            "Sur ton front rayonne <br />\n" +
+            "La grâce et l’amour.<br />\n" +
+            "#\n" +
+            "3. Ah! bientôt, sans voile, <br />\n" +
+            "Luiront tes splendeurs,<br />\n" +
+            "Radieuse Étoile <br />\n" +
+            "Levée en nos coeurs. <br />\n" +
+            "Oh! quelle allégresse! <br />\n" +
+            "Nos yeux te verront, <br />\n" +
+            "Et de toi, sans cesse, <br />\n" +
+            "Tes saints jouiront.<br />\n" +
+            "#\n" +
+            "4. À toi soit la gloire, <br />\n" +
+            "Ô Fils éternel!<br />\n" +
+            "Ta mort, ta victoire, <br />\n" +
+            "Nous ouvrit le ciel. <br />\n" +
+            "À toi qui nous aimes <br />\n" +
+            "Pour l’éternité, <br />\n" +
+            "Louanges suprêmes, <br />\n" +
+            "Force et majesté!<br />\n"
     },
     {
         "theme": "Adoration générale",
         "number": 298,
         "chorus": "hello world",
-        "verses": "hello#verse#how#are#you"
+        "verses": "1. Seigneur, lorsque je contemple <br />\n" +
+            "Les ouvrages de tes mains, <br />\n" +
+            "Le ciel, voûte de ton temple,<br />\n" +
+            "Qui couvre tous les humains,<br />\n" +
+            "#\n" +
+            "2. Quand je vois l’armée immense <br />\n" +
+            "Des astres brillant aux cieux,<br />\n" +
+            "Soutenus par ta puissance <br />\n" +
+            "Dans leurs orbes radieux,<br />\n" +
+            "#\n" +
+            "3. Je comprends ma petitesse, <br />\n" +
+            "Mon néant et ta grandeur, <br />\n" +
+            "Je sens toute ma faiblesse, <br />\n" +
+            "Ô Dieu, puissant Créateur!<br />\n" +
+            "#\n" +
+            "4. Je ne suis devant ta face<br />\n" +
+            " Qu’un être infirme et pécheur;<br />\n" +
+            "Puis-je espérer que ta grâce <br />\n" +
+            "Me regarde avec faveur?<br />\n" +
+            "#\n" +
+            "5. Ah! je sais que ta tendresse <br />\n" +
+            "Daigna s’abaisser vers moi, <br />\n" +
+            "Me prit dans ma petitesse <br />\n" +
+            "Pour m’élever jusqu’à toi.<br />\n" +
+            "#\n" +
+            "6. Oui, le pécheur misérable <br />\n" +
+            "A plus de prix à tes yeux<br />\n" +
+            "Que le cortège innombrable<br />\n" +
+            " Des étoiles dans les cieux;<br />\n" +
+            "#\n" +
+            "7. Car, dans ton amour suprême, <br />\n" +
+            "Tu m’as donné pour Sauveur<br />\n" +
+            "Ô mon Dieu, ton Fils lui-même, <br />\n" +
+            "Les délices de ton coeur!<br />\n"
     },
     {
         "theme": "Adoration générale",
         "number": 299,
         "chorus": "hello world",
-        "verses": "hello#verse#how#are#you"
+        "verses": "1. De Dieu l’amour éternel,<br />\n" +
+            "À mon coeur s’est fait connaître, Et je sais qu’il est réel,<br />\n" +
+            "Par l’Esprit qui me pénètre. Toutes mes terreurs ont fui, <br />\n" +
+            "Une douce paix m’inonde;<br />\n" +
+            "<span class='bis'>Ô sécurité profonde! <br />\n" +
+            "Il est à moi, je suis à lui!</span><br /><br />\n" +
+            "#\n" +
+            "2. Jamais l’oiseau n’a chanté <br />\n" +
+            "Hymnes si mélodieuses,<br />\n" +
+            "Et la terre n’a porté <br />\n" +
+            "Tant de fleurs si radieuses. <br />\n" +
+            "Jamais, dans l’azur, n’a lui<br />\n" +
+            "Une lumière si belle... <br />\n" +
+            "<span class='bis'>Ô bonheur! vie éternelle!<br />\n" +
+            "Il est à moi, je suis à lui!</span><br /><br />\n" +
+            "#\n" +
+            "3. Mes péchés ont disparu, <br />\n" +
+            "Chassés comme une fumée; <br />\n" +
+            "Car pour moi Jésus mourut; <br />\n" +
+            "De lui mon âme est aimée.<br />\n" +
+            "Sûr et fort de son appui, <br />\n" +
+            "Je repose en sa tendresse, <br />\n" +
+            "<span class='bis'>Et tout bas redis sans cesse: <br />\n" +
+            "Il est à moi, je suis à lui!</span><br /><br />\n" +
+            "#\n" +
+            "4. À lui seul, et pour toujours! <br />\n" +
+            "L’enfer, la mort, ni la vie, <br />\n" +
+            "Rien ne peut, de son amour,<br />\n" +
+            "Priver mon âme ravie. <br />\n" +
+            "Que le monde soit détruit, <br />\n" +
+            "Et que le soleil s’éteigne!...<br />\n" +
+            "Jésus vit et Jésus règne: <br />\n" +
+            "Je vis et je règne avec lui! <br />\n" +
+            "Jésus vit et Jésus règne,<br />\n" +
+            "Il est à moi, je suis à lui!<br />\n"
     },
     {
         "theme": "Adoration générale",
         "number": 300,
         "chorus": "hello world",
-        "verses": "hello#verse#how#are#you"
+        "verses": "1. Au ciel, sur le trône du Père, <br />\n" +
+            "Nous te voyons, ô Rédempteur,<br />\n" +
+            "Dans le repos et la lumière, <br />\n" +
+            "Ceint de puissance et de splendeur.<br />\n" +
+            "L’oeuvre de grâce est terminée: <br />\n" +
+            "Tu t’es assis dans le saint lieu; <br />\n" +
+            "En haut, la gloire t’est donnée; <br />\n" +
+            "Tout t’est soumis, ô Fils de Dieu!<br />\n" +
+            "#\n" +
+            "2. Nous triomphons par ta victoire, <br />\n" +
+            "Seigneur Jésus, puissant Sauveur,<br />\n" +
+            "Dans les hauts lieux et dans la gloire <br />\n" +
+            "Des rachetés le précurseur!<br />\n" +
+            "Oui, pour le ciel, notre espérance, <br />\n" +
+            "Sûre à jamais, repose en toi,<br />\n" +
+            "De notre coeur ferme assurance, <br />\n" +
+            "Objet béni de notre foi!<br />\n" +
+            "#\n" +
+            "3. Hommage à toi, Chef de l’Église! <br />\n" +
+            "L’Épouse, objet de ta faveur,<br />\n" +
+            "À tes côtés bientôt assise, <br />\n" +
+            "Sans fin bénira son Seigneur.<br />\n" +
+            "Ô saints transports! joie ineffable!<br />\n" +
+            "Nous jouirons de ta beauté, <br />\n" +
+            "Et de l’amour inexprimable <br />\n" +
+            "Qui remplira l’éternité.<br />\n"
     },
     {
         "theme": "Adoration générale",
         "number": 301,
-        "chorus": "hello world",
-        "verses": "1.\tDans les cieux et sur la terre, <br/>Il n’est aucun nom plus dcalloux, <br/>Aucun que mon coeur préfère<br/>\nAu nom de Christ mort pour nous.#\nRefrain\nQuel beau nom! (bis) — <br/>porte l’Oint de l’Éternel; <br/>Quel beau nom! (bis) — <br/>que celui d’Emmanuel!#\n2.\tQuelque grand que soit un homme, <br/>Qu’il soit prince ou qu’il soit roi, <br/>De quelque nom qu’on le nomme, <br/>\nJésus est plus grand pour moi. <br/>\nQuel beau nom! etc.#\n3.\tLes séraphins, les archanges <br/>Portent des noms glorieux, <br/>\nMais le plus beau nom des anges <br/>Pourrait-il me rendre heureux? <br/>\nQuel beau nom! etc.\n# 1.\tDans les maux, Jésus soulage, <br/>Il guérit l’esprit froissé, <br/>\nIl ranime le courage <br/>Du coeur le plus oppressé. <br/>\nQuel beau nom! etc.#\n2.\tDe quelle joie il inonde <br/>Le coeur du pauvre pécheur! <br/>Non, il n’est rien en ce monde<br/>\nDe pareil à ce bonheur! <br/>\nQuel beau nom! etc"
+        "chorus": "Quel beau nom! (bis) — <br />\n" +
+            "porte l’Oint de l’Éternel; <br />\n" +
+            "Quel beau nom! (bis) — <br />\n" +
+            "que celui d’Emmanuel!<br />\n",
+        "verses": "1. Dans les cieux et sur la terre, <br />\n" +
+            "Il n’est aucun nom plus doux, <br />\n" +
+            "Aucun que mon coeur préfère<br />\n" +
+            "Au nom de Christ mort pour nous.<br />\n" +
+            "#\n" +
+            "Refrain<br />\n" +
+            "Quel beau nom! (bis) — <br />\n" +
+            "porte l’Oint de l’Éternel; <br />\n" +
+            "Quel beau nom! (bis) — <br />\n" +
+            "que celui d’Emmanuel!<br />\n" +
+            "#\n" +
+            "2. Quelque grand que soit un homme, <br />\n" +
+            "Qu’il soit prince ou qu’il soit roi, <br />\n" +
+            "De quelque nom qu’on le nomme,<br />\n" +
+            "Jésus est plus grand pour moi.<br />\n" +
+            "Quel beau nom! etc.<br />\n" +
+            "#\n" +
+            "3. Les séraphins, les archanges <br />\n" +
+            "Portent des noms glorieux,<br />\n" +
+            "Mais le plus beau nom des anges <br />\n" +
+            "Pourrait-il me rendre heureux?<br />\n" +
+            "Quel beau nom! etc.<br />\n" +
+            "#\n" +
+            "4. Dans les maux, Jésus soulage, <br />\n" +
+            "Il guérit l’esprit froissé,<br />\n" +
+            "Il ranime le courage <br />\n" +
+            "Du coeur le plus oppressé.<br />\n" +
+            "Quel beau nom! etc.<br />\n" +
+            "#\n" +
+            "5. De quelle joie il inonde <br />\n" +
+            "Le coeur du pauvre pécheur! <br />\n" +
+            "Non, il n’est rien en ce monde<br />\n" +
+            "De pareil à ce bonheur!<br />\n" +
+            "Quel beau nom! etc.<br />\n "
     }
 
 

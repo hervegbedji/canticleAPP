@@ -39,13 +39,12 @@ class Canticle {
         return this._chorus;
     }
 
-    get verses(){
+    get verses(){ // formatted verses are used for presentation of canticles.
         return this.createArrayOfIndividualVerses(this._verses_block_from_db);
     }
 
-    get nonReactParsedVerses(){ //
+    get nonReactParsedVerses(){ // raw verses are used for keyword search.
         return this._verses_block_from_db;
-        //return this.removeLineBreaksFromRawVerses(this._verses_block_from_db);
     }
 }
 

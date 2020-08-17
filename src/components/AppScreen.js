@@ -6,7 +6,11 @@ import {LyricsBody} from './LyricsBody.js';
 import bootstrap from 'bootstrap/dist/css/bootstrap.css';
 import Tabs from 'react-bootstrap/Tabs';
 import Tab from 'react-bootstrap/Tab';
+import canticleList from './ConsumableDataFromDB.js';
 
+const originalCanticleArray = canticleList.map((canticle) => (
+    {"number":canticle.number, "verse": canticle.nonReactParsedVerses}
+));
 
 let testArr = [300, 200, 100, 400];
 
@@ -66,18 +70,17 @@ const GroupByTheme = (props) => {
 
 const CanticleNumberBtnsWithVerses = (props) => {
 
-    const originalCanticleArray = props.listOfAllCanticlesInfos.map((canticle) => (
-        {"number":canticle.number, "verse": canticle.nonReactParsedVerses}
-    ));
-
     let filteredCanticles = originalCanticleArray.filter(item => {
         return(item.verse.toLowerCase().includes(props.theQuery.toLowerCase()));
     });
 
+
+
     let formatedFilteredCanticles = filteredCanticles.map(function(item){
         var newObj = {};
         newObj.number = item.number;
-        newObj.verse = parseToHtml(item.verse.replace(new RegExp(props.theQuery, 'gi'), props.theQuery.bold()));
+        //newObj.verse = parseToHtml(item.verse.replace(new RegExp(props.theQuery, 'gi'), props.theQuery.bold()));
+        newObj.verse = parseToHtml(item.verse);
         return newObj;
     });
 
